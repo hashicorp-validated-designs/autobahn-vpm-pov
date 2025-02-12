@@ -22,7 +22,7 @@ When deploying the environment for the VPM PoV initially, you must execute the c
 
 While the bootstraping code is intended to be used only once, the code in the other two sections can be the base of a long-lived HCP and HCP Terraform configuration.
 
-The `pov-infrastructure` code depends on a separate repository ([hashicorp/autobahn-vpm-gha-packer](https://github.com/hashicorp/autobahn-vpm-gha-packer)) defining the Packer templates and example GHA workflows to automate the creation of the Packer images. Additional details about the required step sequence is documented here: [README](documentation/README.md).
+The `pov-infrastructure` code depends on a separate repository ([autobahn-vpm-gha-packer](https://github.com/hashicorp-validated-designs/autobahn-vpm-gha-packer)) defining the Packer templates and example GHA workflows to automate the creation of the Packer images. Additional details about the required step sequence is documented here: [README](documentation/README.md).
 
 ## Prerequisites
 
